@@ -43,8 +43,10 @@
 #     print(p)
 # # print(lp)
 
+ls = ["lahore","multan","karachi"]
+lp = []
+ 
+for x in ls:
+    lp.insert(0,x)
 
-pakistan_cities = ["Karachi", "Lahore", "Islamabad", "Rawalpindi",]
-for x in pakistan_cities:
-    pakistan_cities.insert(2,x)
-    print(pakistan_cities)
+    print(lp  ) 
