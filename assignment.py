@@ -141,6 +141,34 @@
 # print("Total occurrences of digit 3:", count)
 
 
+# str = {"item1", "item2"}
+# (str1 , str2) = str
+# print(str)
+# ls = list(str)
+# print(ls)
+# ls = tuple((str))
+# print(ls)
+
+
+# ls = set(["hello", "world"])
+# tup = set(("hello", "item2"))
+
+# nt = ls.intersection(tup)
+# un = ls.union(tup)
+# df = ls.difference(tup)
+# print(nt, un , df)
+
+tup = (1,2,3,4,5,6,7,8,9,10)
+(a,b,c,d,e,f,g,h,*i) = tup
+
+print(i)
+var = list(i)
+st2 = ["menu","main menu"]
+lis = var + st2
+print(lis)
+print(set(lis))
+
+
 
 
 

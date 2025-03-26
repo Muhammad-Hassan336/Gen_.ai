@@ -33,19 +33,25 @@
  # tup3 = tup1 + tup2
  # print(tup3)
  
-tup1 = ("faisalabad","Jaranwala","Lahore")
-tup2 = (1,2,3,4,5,6,7)
-tup3 = tup2 + tup1
-# print(tup3)
-# print(tup3[7:] + tup3[:7])
-ls = list(tup3)
-ls2 =[]
-for i in  ls:
-     ls2.insert(0, i)
-tup4 = tuple(ls2)
-print(type(tup4))
-print(ls)
+# tup1 = ("faisalabad","Jaranwala","Lahore")
+# tup2 = (1,2,3,4,5,6,7)
+# tup3 = tup2 + tup1
+# # print(tup3)
+# # print(tup3[7:] + tup3[:7])
+# ls = list(tup3)
+# ls2 =[]
+# for i in  ls:
+#      ls2.insert(0, i)
+# tup4 = tuple(ls2)
+# print(type(tup4))
+# print(ls)
  
+# unpacking / destructure ----
+
+# fruits = ('apple', 'banana','mango', 'cherry', 'mango')
+# (x, *y, z) = fruits                                         # 1 mathod
+# print(y)
  
- 
- 
+# tup = ("semester", "annual", "master")
+# (tup1,tup2,tup3) = tup                                        # 2 mathod
+# print(tup2)
