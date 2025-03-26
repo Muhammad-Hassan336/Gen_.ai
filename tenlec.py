@@ -42,9 +42,9 @@
 # copy dictionry
 
 
-dic1 = {"name":"hassan" , "age":22}
-# dic2 = dic1.copy()                                                  # pass by reference
-# dic2 = {"name":"hassan" , "age":22}
-dic2 = dict(dic1)
-dic1["name"] = "zubair"
-print(dic1,dic2)
+# dic1 = {"name":"hassan" , "age":22}
+# # dic2 = dic1.copy()                                                  # pass by reference
+# # dic2 = {"name":"hassan" , "age":22}
+# dic2 = dict(dic1)
+# dic1["name"] = "zubair"
+# print(dic1,dic2)
